@@ -51,6 +51,7 @@ Y = M*X - (K + F)
 #Define x-axis is equal to spot price (i.e., this is one point on the chart)
 xscat = S
 
+#mark helped
 #Below defines y-axis based on either call or put option (i.e., this is one point on the chart)
 def pp2(S, K, F, option = 'call'):
     if option =='call' and ((S - K) - F) >= -F: #200 - 150 - 55  >= -55
